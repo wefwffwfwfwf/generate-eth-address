@@ -19,6 +19,6 @@ jobs:
         uses: ./
         id: ethgen
         with:
-          data: '...PUBLIC-KEY...'
+          data: 'qwaszx12@@'
       - name: Print Gernerated Address
         run: 'echo "Ethereum address: ${{ steps.ethgen.outputs.address }}"'
